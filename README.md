@@ -1,24 +1,25 @@
-# Landing Page – Proyecto personal
+# Landing Page – Personal Project
 
-Esta es una landing page creada con HTML y CSS puro.  
-Sirve como práctica para estructura web, diseño responsivo y estilo limpio.
+This is a simple landing page created using pure HTML and CSS.  
+The goal of this project was to practice clean structure, responsive design, and visual layout without using any frameworks.
 
-## 🚀 Tecnologías
+## 🚀 Technologies Used
 - HTML5
 - CSS3
 - Git / GitHub
 
-## 🎨 Características
-- Diseño responsivo
-- Uso de Flexbox
-- Componentes reutilizables
+## 🎯 Features
+- Fully responsive design
+- Modern layout using Flexbox
+- Organized and reusable components
 
-## 📁 Estructura
-- index.html
-- /assets (imágenes y recursos)
+## 📁 Project Structure
+- `index.html` – Main HTML file
+- `assets/` – Folder for images and other resources
+- `styles.css` – Main CSS stylesheet
 
-## 👤 Autor
+## 👨‍💻 Author
 Axel Giovanni Armas Rubalcava  
-[GitHub](https://github.com/AxelgAr-dev07)
+GitHub: [@AxelgAr-dev07](https://github.com/AxelgAr-dev07)
 
-> Palabra clave: **CONVINCING**
+> Keyword for this job application: **CONVINCING**
