@@ -1,0 +1,140 @@
+@font-face {
+    font-family:"poppins";
+    src: url(./fonts/Poppins-Regular.ttf);}
+html{
+     font-family:"poppins";}
+body{
+    background: #0132AD;
+    background: linear-gradient(235deg, rgba(1, 50, 173, 1) 0%, rgba(3, 27, 69, 1) 50%, rgba(1, 50, 173, 1) 100%);
+    overflow: auto;}
+body::-webkit-scrollbar {
+  display: none; } 
+/*HEADER*/
+.blue-letter{
+             color: #3b75df;}
+#header-insta{
+               font-size:2rem;
+               left:8rem ;     
+               top: 1rem; 
+               position: relative; }
+ #header-button{
+                 display: flex;
+                 flex-direction: row;
+                 justify-content:space-between;
+                 max-width:45%;
+                 min-height: .5rem;
+                 position: relative;
+                 left: 50rem;
+                 top: -3.5rem;}
+.button{
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size:1rem;
+        transition: transform 0.1s ease, background-color 0.3s ease, color 0.3s ease;}           
+.button:hover{
+              background-color: transparent;
+              border: none;
+              color: #8d8c8c8f;
+              transform:translatey(-.8rem);}
+.button:active{background-color: transparent;
+              border: none;
+              color: #8d8c8c8f;
+              transform: scale(150%);}
+.blue-button{
+              color: white;
+              background-color: #3876e0;
+              border: none ;
+              border-radius: 999px;
+              transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;}  
+.blue-button:hover{
+                   background-color:#0d44a3;
+                   color: #6da3ff;          
+                   transform: scale(120%);}  
+.blue-button:active{ 
+                   background-color:#0d44a3;
+                   color: #6da3ff;          
+                   transform: scale(80%);}   
+#login{
+       height: 3rem;
+       min-width: 8rem;}
+/*HEADER*/
+/*MAIN*/
+.white-header{
+              position: relative;
+              left: 8rem;
+              color: white;
+              font-size: 4rem;
+              margin: 0%;}
+#credit-card{
+             position: relative;
+             left: 8rem;
+             font-size: 4rem;
+             margin: 0%;}
+#text{
+      color: white;
+      position: relative;
+      left: 8rem; }
+#text2{
+      color: white;
+      position: relative;
+      left: 9rem;
+      margin: 0%;
+      bottom: 1.2rem;}
+#sign-up{color: white;
+         background-color: #3876e0;
+         border: none ;
+         border-radius: 999px;
+         position: relative;
+         left: 9.2rem;
+         bottom: 11rem;
+         min-height: 3.5rem;
+         min-width: 10rem;
+         font-size: 1.5rem;
+         margin: 2rem;
+         transition: all 0.3s ease;}
+#sign-up:hover{ 
+         transform: translateY(-.8rem) scale(150%); } 
+#sign-up:active{
+         transform: translateY(-.8rem) scale(80%);}
+#image{
+       position: relative;
+       left: 45rem;
+       bottom: 15rem;
+       transform: rotate(310deg);
+       animation: flotar 5s ease infinite;}
+@keyframes flotar{
+                  0%,100%{transform: translateY(0) rotate(310deg);}
+                  50% {transform: translateY(-50px) rotate(310deg);}}
+/*MAIN*/
+/*FOOTER*/
+#father-footer{
+               display: flex;
+               justify-content: space-around; 
+               gap: 5rem;
+               align-items: center;}
+.footer{
+        color: white;
+        flex-direction: column;
+        margin: 1rem;
+        height: 8rem;
+        width: 17rem;
+        bottom: 10rem;
+        position: relative;
+        padding: 3rem;
+        border-radius: 2rem;
+        transition: all 0.3s ease;}
+.footer:hover{
+              transform: scale(120%) translateY(20px);}
+#eligiblity{
+        background:  #031B45;
+        background: linear-gradient(235deg, rgba(3, 27, 69, 1) 0%, rgba(3, 48, 157, 1) 100%);}
+#approval{
+        background: #03309D;
+        background: linear-gradient(235deg, rgba(3, 48, 157, 1) 0%, rgba(3, 27, 69, 1) 100%);}
+#rates{
+        background:  #031B45;
+        background: linear-gradient(235deg, rgba(3, 27, 69, 1) 0%, rgba(3, 48, 157, 1) 100%);}
+.h2-footer{
+        font-size: 1.9rem;}
+/*FOOTER*/ 
